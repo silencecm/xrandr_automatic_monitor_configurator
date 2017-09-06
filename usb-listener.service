@@ -5,6 +5,7 @@ After=multi-user.target
 [Service]
 Type=idle
 ExecStart=/usr/bin/python /usr/local/usb_listener/xrandr_automatic_monitor_configurator/usb_hub_listener_udev.py
+User=rmacdonald
 
 [Install]
 WantedBy=multi-user.target
